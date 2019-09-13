@@ -14,7 +14,7 @@ export default class App extends Component {
     render() {
         return (
             <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
-                <ProgressIndicator duration={5 * 60 * 1000}/>
+                <ProgressIndicator duration={1 * 60 * 1000}/>
             </View>
         );
     }
